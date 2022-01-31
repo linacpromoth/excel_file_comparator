@@ -35,7 +35,7 @@ optional arguments:
                         the target file to be compared with
 ```
 ## Example output
-![image](https://user-images.githubusercontent.com/98702521/151830413-0d9ecba9-2390-4a4a-b158-127707a9e9b8.png)
+![image](https://user-images.githubusercontent.com/98702521/151831926-d5cbdb2f-248a-4099-8a29-169134ce71c8.png)
 
 ### Output file 
 ![image](https://user-images.githubusercontent.com/98702521/151830841-dbaf8b47-0198-4634-bc40-c0b87048f002.png)
