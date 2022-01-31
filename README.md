@@ -10,16 +10,18 @@ A simple tool written in python to compare two spreadsheets of the formats - **.
 
 ## Installation
 Clone the git and you get the ball rolling!!!
+'''
 $ git clone https://github.com/linacpromoth/excel_file_comparator
 $ cd excel_file_comparator
-
+'''
 Move the **base file** to compare with and the **target file** to comapare against to the excel_file_comparator directory and execute the python file.An output .xlsx file will be generated with the following two sheets
 - **output** sheet -> contains the target file values with the cahnges highlighted.
 - **summary** sheet -> contains the summary of the changes made on the target file.  
 
   
 ## Usage
-$ python3 file_comparator.py -b <baseFile> -t <targetFile>
+'''
+$ python3 file_comparator.py -b **baseFile.xlsx** -t **targetFile.xlsx**
 
 usage: file_comparator.py [-h] -b BASE_FILE -t TARGET_FILE
 
@@ -31,4 +33,14 @@ optional arguments:
                         the base file against which comparison takes place
   -t TARGET_FILE, --target_file TARGET_FILE
                         the target file to be compared with
- 
+'''
+## Example output
+![image](https://user-images.githubusercontent.com/98702521/151830413-0d9ecba9-2390-4a4a-b158-127707a9e9b8.png)
+
+### Output file 
+![image](https://user-images.githubusercontent.com/98702521/151830841-dbaf8b47-0198-4634-bc40-c0b87048f002.png)
+
+### Summary output
+![image](https://user-images.githubusercontent.com/98702521/151830963-734b04b4-b211-46f9-baa6-9e7f8bb43cf2.png)
+
+
