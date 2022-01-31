@@ -21,7 +21,7 @@ Move the **base file** to compare with and the **target file** to comapare again
   
 ## Usage
 ```
-$ python3 file_comparator.py -b **baseFile.xlsx** -t **targetFile.xlsx**
+$ python3 file_comparator.py -b <baseFile.xlsx> -t <targetFile.xlsx>
 
 usage: file_comparator.py [-h] -b BASE_FILE -t TARGET_FILE
 
