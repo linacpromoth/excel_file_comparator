@@ -30,9 +30,9 @@ Compare target file with base file
 optional arguments:
   -h, --help            show this help message and exit
   -b BASE_FILE, --base_file BASE_FILE
-                        the base file against which comparison takes place
+                        the base file to be compared with
   -t TARGET_FILE, --target_file TARGET_FILE
-                        the target file to be compared with
+                        the target file to be compared against
 ```
 ## Example output
 ![image](https://user-images.githubusercontent.com/98702521/151831926-d5cbdb2f-248a-4099-8a29-169134ce71c8.png)
