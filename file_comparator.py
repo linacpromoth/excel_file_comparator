@@ -227,8 +227,8 @@ def files_checker(base, target):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Compare target file with base file')
-    parser.add_argument("-b", "--base_file", help="the base file against which comparison takes place", required=True)
-    parser.add_argument("-t", "--target_file", help="the target file to be compared with", required=True)
+    parser.add_argument("-b", "--base_file", help="the base file to be compared with ", required=True)
+    parser.add_argument("-t", "--target_file", help="the target file to compare against", required=True)
     
     if len(sys.argv)!=5:
         parser.print_help(sys.stderr)

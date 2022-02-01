@@ -32,7 +32,7 @@ optional arguments:
   -b BASE_FILE, --base_file BASE_FILE
                         the base file to be compared with
   -t TARGET_FILE, --target_file TARGET_FILE
-                        the target file to be compared against
+                        the target file to compare against
 ```
 ## Example output
 ![image](https://user-images.githubusercontent.com/98702521/151831926-d5cbdb2f-248a-4099-8a29-169134ce71c8.png)
