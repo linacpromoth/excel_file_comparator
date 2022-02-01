@@ -14,8 +14,8 @@ Clone the git and you get the ball rolling!!!
 $ git clone https://github.com/linacpromoth/excel_file_comparator
 $ cd excel_file_comparator
 ```
-Move the **base file** to compare with and the **target file** to comapare against to the excel_file_comparator directory and execute the python file.An output .xlsx file will be generated with the following two sheets
-- **output** sheet -> contains the target file values with the cahnges highlighted.
+Move the **base file** to compare with and the **target file** to comapare against to the **excel_file_comparator** directory and then executes the python file.An output .xlsx file will be generated with the following two sheets
+- **output** sheet -> contains the target file values with the changes highlighted.
 - **summary** sheet -> contains the summary of the changes made on the target file.  
 
   
@@ -43,4 +43,9 @@ optional arguments:
 ### Summary output
 ![image](https://user-images.githubusercontent.com/98702521/151830963-734b04b4-b211-46f9-baa6-9e7f8bb43cf2.png)
 
+
+# Limitations
+* Duplicates are removed by default
+* First common columns between both base and target file is considered as primary identifier column, so its better to ensure that column is unique(case-sensitive).
+* Deleted records wont be captured in the output file generated.
 

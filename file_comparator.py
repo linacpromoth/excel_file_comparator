@@ -174,10 +174,10 @@ def file_extension_checker(file):
     '''
     if file.endswith('.xlsx') or file.endswith('.xls'):
         df = pd.read_excel(file)
-        df = df.drop_duplicates()
+        df = df.drop_duplicates() # Duplicates Removed
     elif file.endswith('.csv'):
         df = pd.read_csv(file)
-        df = df.drop_duplicates()
+        df = df.drop_duplicates() # Duplicates Removed
     else:
         df= pd.DataFrame()
         
@@ -194,7 +194,7 @@ def tool_display():
     print("         ---------- |    |  |___ |___     |___ |__| |    | |     |   | |  \  |___  |  \  ---------")
     print("         ----------                                                                      ---------")
     print("         -----------------------------------------------------------------------------------------")
-    print("         Verison : 0.1 - 1st Feb 2022")
+    print("         Version : 0.1 - 1st Feb 2022")
     print("         Created By: Promoth  https://github.com/linacpromoth")
     print("         -----------------------------------------------------------------------------------------")
 
