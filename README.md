@@ -46,6 +46,6 @@ optional arguments:
 
 # Limitations
 * Duplicates are removed by default
-* First common columns between both base and target file is considered as primary identifier column, so its better to ensure that column is unique(case-sensitive).
+* First common column between both base and target file is considered as primary identifier column, so its better to ensure that the first column is unique(case-sensitive).
 * Deleted records wont be captured in the output file generated.
 
